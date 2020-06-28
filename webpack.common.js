@@ -43,7 +43,7 @@ module.exports = () => {
     resolve: {
       alias: {
         phaser: path.resolve(__dirname, "assets/libs/phaser/phaser.min.js"),
-        config: path.resolve(__dirname, "src/config.js"),
+        app: path.resolve(__dirname, "src/app.js"),
       },
       extensions: ["*", ".js"],
     },

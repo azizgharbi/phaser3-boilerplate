@@ -1,3 +1,5 @@
+import { game } from "app";
+
 export default class SceneMain extends Phaser.Scene {
   constructor() {
     super("SceneMain");
@@ -7,7 +9,7 @@ export default class SceneMain extends Phaser.Scene {
   }
   create() {
     //define our objects
-    console.log("Ready!");
+    console.log(game);
   }
   update() {
     //constant running loop
