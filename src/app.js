@@ -1,7 +1,6 @@
-import phaser from "phaser";
+import Phaser from "phaser";
 
-/**
- * Start your game
- */
+// config
+import { config } from "config";
 
-console.log(phaser);
+var game = new Phaser.Game(config);
