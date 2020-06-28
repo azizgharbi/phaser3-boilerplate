@@ -6,8 +6,10 @@ A Phaser 3 boilerplate with ES6 support via Babel and Webpack that includes `hot
 
 `start dev`
 
-and enjoy your game development on http://localhost:5000/
+Enjoy your game development on http://localhost:5000/
 
 ### Production:
+
+Build your project by simply run:
 
 `npm run build`
