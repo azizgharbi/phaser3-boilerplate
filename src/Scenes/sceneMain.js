@@ -2,9 +2,14 @@ export default class SceneMain extends Phaser.Scene {
   constructor() {
     super("SceneMain");
   }
-  preload() {}
+  preload() {
+    //load images or sounds
+  }
   create() {
+    //define our objects
     console.log("Ready!");
   }
-  update() {}
+  update() {
+    //constant running loop
+  }
 }
