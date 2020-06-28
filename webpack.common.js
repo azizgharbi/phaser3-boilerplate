@@ -5,7 +5,6 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = () => {
   return {
-    mode: "production",
     module: {
       rules: [
         {
@@ -18,6 +17,14 @@ module.exports = () => {
           use: {
             loader: "babel-loader",
           },
+        },
+        {
+          test: /\.(png|jpe?g|gif)$/i,
+          use: [
+            {
+              loader: "file-loader",
+            },
+          ],
         },
       ],
     },
