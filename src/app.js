@@ -3,7 +3,7 @@ import SceneMain from "./Scenes/sceneMain";
 
 const isMobile = navigator.userAgent.indexOf("Mobile");
 
-const config = {
+export const config = {
   type: Phaser.AUTO,
   width: isMobile == -1 ? 480 : window.innerWidth,
   height: isMobile == -1 ? 640 : window.innerHeight,
